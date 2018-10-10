@@ -1,14 +1,1 @@
-<script>
-<scriptACL>
-<execute>all</execute>
-<read>all</read>
-<write>all</write>
-</scriptACL>
-<code> 
-<![CDATA[	
-         
-return "ace of base";
-
-]]>
-</code>
-</script>
+<script><scriptACL><execute>nobody</execute><read>nobody</read><write>nobody</write></scriptACL><code><![CDATA[return "Test";]]></code></script>
