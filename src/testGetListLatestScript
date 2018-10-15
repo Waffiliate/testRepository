@@ -1,1 +1,0 @@
-<script><scriptACL><execute>nobody</execute><read>nobody</read><write>nobody</write></scriptACL><code><![CDATA[return "Test";]]></code></script>
