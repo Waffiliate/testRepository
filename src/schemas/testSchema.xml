@@ -1,0 +1,33 @@
+<schema>
+	<aclGroups>
+		<aclGroup name="all">
+			<read>all</read>
+			<write>all</write>
+			<fields>
+				<field>testString</field>
+				<field>testNumeric</field>
+				<field>testDate</field>
+				<field>testGeospatial</field>
+				<field>testText</field>
+				<field>testFile</field>
+			</fields>
+		</aclGroup>
+		<defaultAcl>
+			<read>creator</read>
+			<write>creator</write>
+		</defaultAcl>
+		<schemaAcl>
+			<read>creator</read>
+			<write>creator</write>
+			<delete>nobody</delete>
+		</schemaAcl>
+	</aclGroups>
+	<fields>
+		<field name="testString" type="string" />
+		<field name="testNumeric" type="numeric" />
+		<field name="testDate" type="date" />
+		<field name="testGeospatial" type="geospatial" />
+		<field name="testText" type="text" />
+		<field name="testFile" type="file" />
+	</fields>
+</schema>
