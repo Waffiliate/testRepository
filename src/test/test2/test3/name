@@ -1,0 +1,7 @@
+/** Script ACLs do not delete !!
+write=whatever 
+read=test
+execute=group:admin
+**/
+
+return "Wrong Script";
